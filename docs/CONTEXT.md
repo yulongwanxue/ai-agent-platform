@@ -5,6 +5,8 @@
 
 ## 最后更新
 
+2026-10-13 | 本机开发栈环境就绪：Runtime 与 Platform API 分别配置独立 PG 数据库/普通账号，连接持久化 PG/Redis Docker 服务；Runtime API、Worker、Platform API、Platform Web 已通过本机健康检查。模型连接仍需在平台模型管理中配置。
+
 2026-09-29 | 平台重大里程碑发布：正式定级发布 `v0.5.0`。确立“面向二次开发与企业落地的 AI Agent 平台底座”核心定位；消灭早期测试流水账与死链，重构中英文主页并发布 3 套 Archify 2K 架构/时序/扩展点全景可视化系统；实装以 `open-swe`、`deepagents` 与 `deer-flow` 为支柱的生产级智能体 `DeerFlow Agent`，支持多模式工作流、长期记忆闭环、沙箱 Workspace 与 PTY 终端；致谢置顶技术核心并发布正式 Release Notes 与 Runbook。
 
 2026-09-29 | architecture/ 方法论升级：新增第七章双层渐进式概念透析规范（30秒原地折叠拐杖 + 概念专篇库）；新建 concepts/ 目录并交付首篇《01-从 MVC 到 DDD 与六边形架构深度透析》；完成 04-platform-api 架构文档原地折叠拐杖挂载
